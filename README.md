@@ -1,6 +1,14 @@
 # deno-fresh
 example web app using deno 2 with fresh 
+see live demo at:  https://chuaml-deno-fresh.deno.dev/
+
+create your project at:
+https://dash.deno.com/account/projects
+
+
 =======
+
+
 # Fresh project
 
 Your new Fresh project is ready to go. You can follow the Fresh "Getting
