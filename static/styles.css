@@ -127,3 +127,11 @@ html {
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+nav > ul > li {
+  display: inline-block;
+  margin: .2rem 0;
+  &> a {
+    padding: .5rem 2rem;
+  }
+}
