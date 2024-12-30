@@ -1,5 +1,5 @@
 import { FreshContext } from "$fresh/server.ts";
-import { NavigationBar } from "../components/NavigationBar.tsx";
+import { NavigationBar } from "/components/NavigationBar.tsx";
 async function getRoutes(): Promise<{ name: string; href: string }[]> {
   const routes: { name: string; href: string }[] = [];
 

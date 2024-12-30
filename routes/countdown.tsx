@@ -1,4 +1,4 @@
-import Countdown from "../islands/CountDown.tsx";
+import Countdown from "/islands/CountDown.tsx";
 
 export default function Page() {
   const date = new Date();
