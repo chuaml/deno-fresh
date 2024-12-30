@@ -28,9 +28,11 @@ export default async function Layout(req: Request, ctx: FreshContext) {
     <>
       <NavigationBar pathList={pathList}></NavigationBar>
       <h1>hello at: <span>{url.pathname}</span></h1>
-      <div class="layout">
+      <main class="layout bg-[#86efac]">
+        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <ctx.Component />
-      </div>
+        </div>
+      </main>
     </>
   );
 }
